@@ -1,0 +1,25 @@
+[{
+    "appid": "cltTea",
+    "name": "教师PC端",
+	"host": "data.gaomuxuexi.com",
+    "layers": [{
+        "type": "cross"
+    }, {
+        "type": "static",
+        "value": "/Users/inu1255/Desktop/oledu/dev/@code/cltTea"
+    }, {
+        "type": "api",
+        "value": "/Users/inu1255/Desktop/oledu/dev/@code/srv/oledu/@API"
+    }, {
+        "type": "proxy",
+        "value": "http://data.gaomuxuexi.com"
+    }]
+},{
+    "appid": "edtutor",
+    "name": "讲义编辑器",
+	"host": "edtutor.gaomuxuexi.com",
+    "layers": [{
+        "type": "static",
+        "value": "/Users/inu1255/Desktop/oledu/dev/@code/edtutor"
+    }]
+}]
